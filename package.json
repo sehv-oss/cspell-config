@@ -6,7 +6,10 @@
   "main": ".cspell.config.ts",
   "scripts": {
     "build": "tsc --project tsconfig.json",
-    "lint:cspell": "cspell --config .cspell.config.ts ."
+    "lint:cspell": "cspell --config .cspell.config.ts .",
+    "changeset": "changeset",
+    "changeset:version": "changeset version",
+    "changeset:publish": "changeset publish"
   },
   "files": [
     ".cspell.config.ts",
