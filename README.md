@@ -19,17 +19,13 @@ yarn add --dev @sehv-oss/cspell-config cspell
 
 Create a `.cspell.config.ts` file at the root of your project and [import](https://cspell.org/configuration/imports/) the configuration:
 
-<!-- cspell:ignore myproject -->
-
 ```ts
 // .cspell.config.ts
-import type { CSpellUserSettings } from 'cspell';
+import { defineConfig } from 'cspell';
 
-const config: CSpellUserSettings = {
+export default defineConfig({
   import: ['@sehv-oss/cspell-config'],
   // your customizations here
   words: ['myproject'],
-};
-
-export default config;
+});
 ```
