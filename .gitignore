@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Output of 'pnpm pack' / 'npm pack'
+*.tgz
+
+# dotenv environment variable files
+.env
+.env.*
+!.env.example
+
+# Editors and OS files
+.idea/
+.DS_Store
+Thumbs.db
