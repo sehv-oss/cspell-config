@@ -1,0 +1,39 @@
+{
+  "name": "@sehv-oss/cspell-config",
+  "version": "0.0.0",
+  "description": "CSpell shared configuration for JavaScript/TypeScript projects",
+  "type": "module",
+  "main": ".cspell.config.ts",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "lint:cspell": "cspell --config .cspell.config.ts ."
+  },
+  "files": [
+    ".cspell.config.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "cspell",
+    "cspell-config",
+    "spell-checker"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sehv-oss/cspell-config.git"
+  },
+  "dependencies": {
+    "@changesets/cli": "2.31.0"
+  },
+  "peerDependencies": {
+    "cspell": ">=10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3"
+  },
+  "engines": {
+    "node": ">=22 <27"
+  },
+  "packageManager": "pnpm@11.5.3+sha512.7ac1c919341c213a34dc0d02afb7143c5c26ac26ee8c4782deea821b8ac64d2134a081fd8941dae6e29bbb48f58dfc2b7fbceeccc07cb2f09d219d342a4969ed"
+}
