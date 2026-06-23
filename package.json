@@ -1,6 +1,6 @@
 {
   "name": "@sehv-oss/cspell-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CSpell shared configuration for JavaScript/TypeScript projects",
   "type": "module",
   "main": ".cspell.config.ts",
