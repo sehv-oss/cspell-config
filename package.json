@@ -26,13 +26,11 @@
     "type": "git",
     "url": "https://github.com/sehv-oss/cspell-config.git"
   },
-  "dependencies": {
-    "@changesets/cli": "2.31.0"
-  },
   "peerDependencies": {
     "cspell": ">=10.0.0"
   },
   "devDependencies": {
+    "@changesets/cli": "2.31.0",
     "typescript": "6.0.3"
   },
   "engines": {
