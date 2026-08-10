@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "CSpell shared configuration for JavaScript/TypeScript projects",
   "type": "module",
-  "main": ".cspell.config.ts",
+  "main": "dist/.cspell.config.js",
   "scripts": {
     "build": "tsc --project tsconfig.json",
     "lint:cspell": "cspell --config .cspell.config.ts .",
@@ -12,7 +12,7 @@
     "changeset:publish": "changeset publish"
   },
   "files": [
-    ".cspell.config.ts",
+    "dist",
     "README.md",
     "LICENSE"
   ],
@@ -24,7 +24,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sehv-oss/cspell-config.git"
+    "url": "git+https://github.com/sehv-oss/cspell-config.git"
   },
   "peerDependencies": {
     "cspell": ">=10.0.0"
