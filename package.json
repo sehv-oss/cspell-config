@@ -1,9 +1,21 @@
 {
   "name": "@sehv-oss/cspell-config",
   "version": "1.0.1",
-  "description": "CSpell shared configuration for JavaScript/TypeScript projects",
+  "description": "Multi-language (English/Portuguese) CSpell shared configuration for JavaScript/TypeScript projects",
   "type": "module",
   "main": "dist/.cspell.config.js",
+  "types": "dist/.cspell.config.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/.cspell.config.d.ts",
+      "default": "./dist/.cspell.config.js"
+    },
+    "./pt-br": {
+      "types": "./dist/pt-br.cspell.config.d.ts",
+      "default": "./dist/pt-br.cspell.config.js"
+    },
+    "./package.json": "./package.json"
+  },
   "scripts": {
     "build": "tsc --project tsconfig.json",
     "lint:cspell": "cspell --config .cspell.config.ts .",
@@ -19,12 +31,18 @@
   "keywords": [
     "cspell",
     "cspell-config",
-    "spell-checker"
+    "spell-checker",
+    "portuguese",
+    "pt-br",
+    "i18n"
   ],
   "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sehv-oss/cspell-config.git"
+  },
+  "dependencies": {
+    "@cspell/dict-pt-br": "2.4.2"
   },
   "peerDependencies": {
     "cspell": ">=10.0.0"

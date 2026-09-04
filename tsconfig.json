@@ -2,13 +2,13 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
     "outDir": "dist",
-
     "target": "esnext",
-    "lib": ["ESNext"],
+    "lib": [
+      "ESNext"
+    ],
     "module": "esnext",
     "moduleResolution": "bundler",
     "moduleDetection": "force",
-
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
@@ -16,16 +16,17 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "exactOptionalPropertyTypes": true,
-
     "verbatimModuleSyntax": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
-
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true
   },
-  "include": [".cspell.config.ts"]
+  "include": [
+    ".cspell.config.ts",
+    "pt-br.cspell.config.ts"
+  ]
 }
