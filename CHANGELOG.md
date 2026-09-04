@@ -1,5 +1,11 @@
 # @sehv-oss/cspell-config
 
+## 1.1.0
+
+### Minor Changes
+
+- 5223099: feat: added pt-br language and common dicts
+
 ## 1.0.1
 
 ### Patch Changes
