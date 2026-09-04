@@ -19,4 +19,4 @@ jobs:
       cspell: false
       prettier: false
       eslint: false
-      skip-test: true
+      test: false
