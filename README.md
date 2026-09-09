@@ -26,7 +26,7 @@ import { defineConfig } from 'cspell';
 export default defineConfig({
   import: ['@sehv-oss/cspell-config'],
   // your customizations here
-  words: ['myproject'],
+  words: ['my-project'],
 });
 ```
 

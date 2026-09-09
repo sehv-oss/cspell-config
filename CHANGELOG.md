@@ -16,4 +16,4 @@
 
 ### Major Changes
 
-- 2bed89a: feat!: oficial release
+- 2bed89a: feat!: official release

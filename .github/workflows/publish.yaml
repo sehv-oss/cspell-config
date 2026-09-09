@@ -23,5 +23,5 @@ jobs:
 
   packages:
     needs: check
-    uses: sehv-oss/actions/.github/workflows/publish-node-pnpm.yaml@main
+    uses: sehv-oss/actions/.github/workflows/publish-node-pnpm.yaml@v1
     secrets: inherit
