@@ -15,4 +15,6 @@ export default defineConfig({
     "softwareTerms",
     "typescript",
   ],
+  words: ["sehv"],
+  ignorePaths: ["node_modules", "dist", "pnpm-lock.yaml"],
 });
