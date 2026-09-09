@@ -1,5 +1,11 @@
 # @sehv-oss/cspell-config
 
+## 1.1.1
+
+### Patch Changes
+
+- 409f8ba: feat: bump dependencies and ci stable version
+
 ## 1.1.0
 
 ### Minor Changes
